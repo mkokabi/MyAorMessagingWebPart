@@ -19,7 +19,7 @@ export const MyAorMessage = (props: IMyAorMessageProps) => {
 
     props.messagingClient
       .get(
-        "https://aor-myaormsg-dev01-func.azurewebsites.net/api/channels",
+        "https://aor-MYAORMSG2-dev01-func.azurewebsites.net/api/channels",
         AadHttpClient.configurations.v1
       )
       .then((res: HttpClientResponse): Promise<any> => {

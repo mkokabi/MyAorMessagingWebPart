@@ -22,7 +22,7 @@ export default class MyAorMessageWebPart extends BaseClientSideWebPart<IMyAorMes
   protected onInit(): Promise<void> {
     return new Promise<void>((resolve: () => void, reject: (error: any) => void): void => {
       this.context.aadHttpClientFactory
-        .getClient('a3960e3e-11b9-4310-90a7-a9212ecbbf9b')
+        .getClient('31fe5a6f-7200-4552-addf-9e234083b070')
         .then((client: AadHttpClient): void => {
           this.messagingClient = client;
           resolve();
