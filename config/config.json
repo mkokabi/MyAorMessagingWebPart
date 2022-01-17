@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-aor-message-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myAorMessage/MyAorMessageWebPart.js",
+          "manifest": "./src/webparts/myAorMessage/MyAorMessageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyAorMessageWebPartStrings": "lib/webparts/myAorMessage/loc/{locale}.js"
+  }
+}
